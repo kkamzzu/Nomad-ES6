@@ -2,9 +2,9 @@ class Counter {
     constructor({ initialNumber = 0, counterId, plusId, minusId }) {
         this.count = initialNumber;
         this.counter = document.getElementById(counterId); //target
-        this.counter.innerText = initialNumber;
-        this.plusBtn = document.getElementById(plusId);
-        this.minusBtn = document.getElementById(minusId);
+        this.counter.innerText = initialNumber; 
+        this.plusBtn = document.getElementById(plusId); //target
+        this.minusBtn = document.getElementById(minusId); //target
         this.addEventListeners();
     }
     addEventListeners = () =>  {
