@@ -1087,3 +1087,4 @@ const getMoviesAsync = async () => {
     getMoviesAsync();
 
 ```
+
